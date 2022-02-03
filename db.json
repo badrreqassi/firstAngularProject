@@ -1,0 +1,20 @@
+{
+  "Users": [
+    { "id": 1,
+       "firstName": "badr",
+        "lastName": "Reqassi" ,
+        "email":"badr@gmail.com",
+        "password":"badr123",
+         "Role":"admin" 
+     },
+    { "id": 2, 
+      "firstName": "karim",
+       "lastName": "louza" ,
+       "email":"karim@gmail.com" ,
+        "Role":"user"
+      }
+
+  ]
+  
+}
+

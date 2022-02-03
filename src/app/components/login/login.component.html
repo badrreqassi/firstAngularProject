@@ -1,0 +1,25 @@
+<form [formGroup]="loginForm" class="border bg-light"  (ngSubmit)="onSubmit()" >
+    <div class="image"><img src="../../../assets/images/login.png" width="200px"></div>
+    
+        <label class="form-label" >
+        <strong> Email </strong>
+        </label>
+        <input  class="form-control"
+         type="email" name="email"
+          id="email" placeholder="Enter Email "
+          formControlName="email"
+          >
+        <label class="form-label" >
+         <strong> PassWord </strong>
+        </label>
+        <input class="form-control"
+        type="password" name="password"
+         id="password" placeholder=" Enter PassWord"
+         formControlName="password"
+         >
+        <input class="btn  btn-dark " type="submit" id="login" value="Login">
+
+        <a [routerLink]="['/forgetPassWord']">  forget password</a>
+  
+</form>
+
