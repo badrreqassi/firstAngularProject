@@ -12,6 +12,7 @@ export class HeaderComponent implements OnInit {
   constructor( private  authService :AuthServiceService ,private router:Router) { }
 
   ngOnInit(): void {
+    console.log("hii anass")
   }
 
   logOut(){
